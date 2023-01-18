@@ -41,6 +41,7 @@ struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         //ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
             LandmarkList()
+                .environmentObject(ModelData())
                 //.previewDevice(PreviewDevice(rawValue: deviceName))
                 //.previewDisplayName(deviceName)
         //}
