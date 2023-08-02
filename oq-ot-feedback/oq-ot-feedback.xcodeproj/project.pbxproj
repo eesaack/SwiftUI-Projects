@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC6FB852A7AA23100AAECEA /* oq-ot-feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6FB842A7AA23100AAECEA /* oq-ot-feedback.swift */; };
+		4AC6FB872A7AA23100AAECEA /* Rating-view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6FB862A7AA23100AAECEA /* Rating-view.swift */; };
+		4AC6FB892A7AA23500AAECEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6FB882A7AA23500AAECEA /* Assets.xcassets */; };
+		4AC6FB8C2A7AA23500AAECEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC6FB8B2A7AA23500AAECEA /* Preview Assets.xcassets */; };
+		4AC6FB962A7AA23600AAECEA /* oq_ot_feedbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6FB952A7AA23600AAECEA /* oq_ot_feedbackTests.swift */; };
+		4AC6FBA02A7AA23600AAECEA /* oq_ot_feedbackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6FB9F2A7AA23600AAECEA /* oq_ot_feedbackUITests.swift */; };
+		4AC6FBA22A7AA23600AAECEA /* oq_ot_feedbackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6FBA12A7AA23600AAECEA /* oq_ot_feedbackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AC6FB922A7AA23600AAECEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC6FB792A7AA23100AAECEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC6FB802A7AA23100AAECEA;
+			remoteInfo = "oq-ot-feedback";
+		};
+		4AC6FB9C2A7AA23600AAECEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC6FB792A7AA23100AAECEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC6FB802A7AA23100AAECEA;
+			remoteInfo = "oq-ot-feedback";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AC6FB812A7AA23100AAECEA /* oq-ot-feedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oq-ot-feedback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC6FB842A7AA23100AAECEA /* oq-ot-feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "oq-ot-feedback.swift"; sourceTree = "<group>"; };
+		4AC6FB862A7AA23100AAECEA /* Rating-view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rating-view.swift"; sourceTree = "<group>"; };
+		4AC6FB882A7AA23500AAECEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AC6FB8B2A7AA23500AAECEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AC6FB912A7AA23600AAECEA /* oq-ot-feedbackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oq-ot-feedbackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC6FB952A7AA23600AAECEA /* oq_ot_feedbackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oq_ot_feedbackTests.swift; sourceTree = "<group>"; };
+		4AC6FB9B2A7AA23600AAECEA /* oq-ot-feedbackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oq-ot-feedbackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC6FB9F2A7AA23600AAECEA /* oq_ot_feedbackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oq_ot_feedbackUITests.swift; sourceTree = "<group>"; };
+		4AC6FBA12A7AA23600AAECEA /* oq_ot_feedbackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oq_ot_feedbackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC6FB7E2A7AA23100AAECEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC6FB8E2A7AA23600AAECEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC6FB982A7AA23600AAECEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC6FB782A7AA23100AAECEA = {
+			isa = PBXGroup;
+			children = (
+				4AC6FB832A7AA23100AAECEA /* oq-ot-feedback */,
+				4AC6FB942A7AA23600AAECEA /* oq-ot-feedbackTests */,
+				4AC6FB9E2A7AA23600AAECEA /* oq-ot-feedbackUITests */,
+				4AC6FB822A7AA23100AAECEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC6FB822A7AA23100AAECEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6FB812A7AA23100AAECEA /* oq-ot-feedback.app */,
+				4AC6FB912A7AA23600AAECEA /* oq-ot-feedbackTests.xctest */,
+				4AC6FB9B2A7AA23600AAECEA /* oq-ot-feedbackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC6FB832A7AA23100AAECEA /* oq-ot-feedback */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6FB842A7AA23100AAECEA /* oq-ot-feedback.swift */,
+				4AC6FB862A7AA23100AAECEA /* Rating-view.swift */,
+				4AC6FB882A7AA23500AAECEA /* Assets.xcassets */,
+				4AC6FB8A2A7AA23500AAECEA /* Preview Content */,
+			);
+			path = "oq-ot-feedback";
+			sourceTree = "<group>";
+		};
+		4AC6FB8A2A7AA23500AAECEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6FB8B2A7AA23500AAECEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AC6FB942A7AA23600AAECEA /* oq-ot-feedbackTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6FB952A7AA23600AAECEA /* oq_ot_feedbackTests.swift */,
+			);
+			path = "oq-ot-feedbackTests";
+			sourceTree = "<group>";
+		};
+		4AC6FB9E2A7AA23600AAECEA /* oq-ot-feedbackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6FB9F2A7AA23600AAECEA /* oq_ot_feedbackUITests.swift */,
+				4AC6FBA12A7AA23600AAECEA /* oq_ot_feedbackUITestsLaunchTests.swift */,
+			);
+			path = "oq-ot-feedbackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC6FB802A7AA23100AAECEA /* oq-ot-feedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC6FBA52A7AA23600AAECEA /* Build configuration list for PBXNativeTarget "oq-ot-feedback" */;
+			buildPhases = (
+				4AC6FB7D2A7AA23100AAECEA /* Sources */,
+				4AC6FB7E2A7AA23100AAECEA /* Frameworks */,
+				4AC6FB7F2A7AA23100AAECEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oq-ot-feedback";
+			productName = "oq-ot-feedback";
+			productReference = 4AC6FB812A7AA23100AAECEA /* oq-ot-feedback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AC6FB902A7AA23600AAECEA /* oq-ot-feedbackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC6FBA82A7AA23600AAECEA /* Build configuration list for PBXNativeTarget "oq-ot-feedbackTests" */;
+			buildPhases = (
+				4AC6FB8D2A7AA23600AAECEA /* Sources */,
+				4AC6FB8E2A7AA23600AAECEA /* Frameworks */,
+				4AC6FB8F2A7AA23600AAECEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC6FB932A7AA23600AAECEA /* PBXTargetDependency */,
+			);
+			name = "oq-ot-feedbackTests";
+			productName = "oq-ot-feedbackTests";
+			productReference = 4AC6FB912A7AA23600AAECEA /* oq-ot-feedbackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AC6FB9A2A7AA23600AAECEA /* oq-ot-feedbackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC6FBAB2A7AA23600AAECEA /* Build configuration list for PBXNativeTarget "oq-ot-feedbackUITests" */;
+			buildPhases = (
+				4AC6FB972A7AA23600AAECEA /* Sources */,
+				4AC6FB982A7AA23600AAECEA /* Frameworks */,
+				4AC6FB992A7AA23600AAECEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC6FB9D2A7AA23600AAECEA /* PBXTargetDependency */,
+			);
+			name = "oq-ot-feedbackUITests";
+			productName = "oq-ot-feedbackUITests";
+			productReference = 4AC6FB9B2A7AA23600AAECEA /* oq-ot-feedbackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC6FB792A7AA23100AAECEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4AC6FB802A7AA23100AAECEA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4AC6FB902A7AA23600AAECEA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4AC6FB802A7AA23100AAECEA;
+					};
+					4AC6FB9A2A7AA23600AAECEA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4AC6FB802A7AA23100AAECEA;
+					};
+				};
+			};
+			buildConfigurationList = 4AC6FB7C2A7AA23100AAECEA /* Build configuration list for PBXProject "oq-ot-feedback" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AC6FB782A7AA23100AAECEA;
+			productRefGroup = 4AC6FB822A7AA23100AAECEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC6FB802A7AA23100AAECEA /* oq-ot-feedback */,
+				4AC6FB902A7AA23600AAECEA /* oq-ot-feedbackTests */,
+				4AC6FB9A2A7AA23600AAECEA /* oq-ot-feedbackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC6FB7F2A7AA23100AAECEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC6FB8C2A7AA23500AAECEA /* Preview Assets.xcassets in Resources */,
+				4AC6FB892A7AA23500AAECEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC6FB8F2A7AA23600AAECEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC6FB992A7AA23600AAECEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC6FB7D2A7AA23100AAECEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC6FB872A7AA23100AAECEA /* Rating-view.swift in Sources */,
+				4AC6FB852A7AA23100AAECEA /* oq-ot-feedback.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC6FB8D2A7AA23600AAECEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC6FB962A7AA23600AAECEA /* oq_ot_feedbackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC6FB972A7AA23600AAECEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC6FBA22A7AA23600AAECEA /* oq_ot_feedbackUITestsLaunchTests.swift in Sources */,
+				4AC6FBA02A7AA23600AAECEA /* oq_ot_feedbackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AC6FB932A7AA23600AAECEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC6FB802A7AA23100AAECEA /* oq-ot-feedback */;
+			targetProxy = 4AC6FB922A7AA23600AAECEA /* PBXContainerItemProxy */;
+		};
+		4AC6FB9D2A7AA23600AAECEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC6FB802A7AA23100AAECEA /* oq-ot-feedback */;
+			targetProxy = 4AC6FB9C2A7AA23600AAECEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AC6FBA32A7AA23600AAECEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AC6FBA42A7AA23600AAECEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC6FBA62A7AA23600AAECEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"oq-ot-feedback/Preview Content\"";
+				DEVELOPMENT_TEAM = 9H369CM94A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.iosacademy.oq-ot-feedback";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AC6FBA72A7AA23600AAECEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"oq-ot-feedback/Preview Content\"";
+				DEVELOPMENT_TEAM = 9H369CM94A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.iosacademy.oq-ot-feedback";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AC6FBA92A7AA23600AAECEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H369CM94A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.iosacademy.oq-ot-feedbackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oq-ot-feedback.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/oq-ot-feedback";
+			};
+			name = Debug;
+		};
+		4AC6FBAA2A7AA23600AAECEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H369CM94A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.iosacademy.oq-ot-feedbackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oq-ot-feedback.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/oq-ot-feedback";
+			};
+			name = Release;
+		};
+		4AC6FBAC2A7AA23600AAECEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H369CM94A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.iosacademy.oq-ot-feedbackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "oq-ot-feedback";
+			};
+			name = Debug;
+		};
+		4AC6FBAD2A7AA23600AAECEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H369CM94A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.iosacademy.oq-ot-feedbackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "oq-ot-feedback";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC6FB7C2A7AA23100AAECEA /* Build configuration list for PBXProject "oq-ot-feedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC6FBA32A7AA23600AAECEA /* Debug */,
+				4AC6FBA42A7AA23600AAECEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC6FBA52A7AA23600AAECEA /* Build configuration list for PBXNativeTarget "oq-ot-feedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC6FBA62A7AA23600AAECEA /* Debug */,
+				4AC6FBA72A7AA23600AAECEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC6FBA82A7AA23600AAECEA /* Build configuration list for PBXNativeTarget "oq-ot-feedbackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC6FBA92A7AA23600AAECEA /* Debug */,
+				4AC6FBAA2A7AA23600AAECEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC6FBAB2A7AA23600AAECEA /* Build configuration list for PBXNativeTarget "oq-ot-feedbackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC6FBAC2A7AA23600AAECEA /* Debug */,
+				4AC6FBAD2A7AA23600AAECEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC6FB792A7AA23100AAECEA /* Project object */;
+}
