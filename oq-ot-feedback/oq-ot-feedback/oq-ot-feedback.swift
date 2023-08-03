@@ -84,7 +84,6 @@ class FeedbackController: UIViewController {
             readyBottom = make.bottom.equalToSuperview().offset(-Metric.standartOffset).constraint
         }
     }
-    
     override func viewSafeAreaInsetsDidChange() {
         super.viewSafeAreaInsetsDidChange()
         if view.safeAreaInsets.bottom > Metric.standartOffset {
